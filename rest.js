@@ -1,3 +1,4 @@
+// declaramos una funcion que puede aceptar un indeterminado numero de argumentos
 function max(...numbers) {
   let result = -Infinity
   for (let number of numbers) {
@@ -14,17 +15,19 @@ console.log(max(...numbers))
 // spread array with another array
 let words = ['never', 'fully']
 console.log('will', ...words, 'understand')
+console.log('He', ...words, 'understood the assignment');
 
-// function accepting a variable number of parameters
+// una funcion que aceptara un numero id y luego una indeterminada cantidad de valores
 let showCollections = function (id, ...collection) {
   console.log(`This is the Id: ${id}`)
-  console.log(collection)
+  console.log('And the Items are: ',collection)
 }
 showCollections(42, 'movies', 'music', 'modern art')
+showCollections(31, 'books', 'vhs', 'videogames')
 
 // destructuring using the rest syntax
 let num1, num2, rest
-;[num1, num2, ...rest] = [1, 23, 54, 3, 88, 5]
+[num1, num2, ...rest] = [1, 23, 54, 3, 88, 5]
 console.log(num1)
 console.log(num2)
 console.log(rest)
