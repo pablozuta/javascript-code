@@ -40,3 +40,22 @@ console.log(Math.max(arrayDeNumeros[0], arrayDeNumeros[2]));
 console.log(Math.pow(2, 3)); // 2 * 2 * 2 = 8
 console.log(Math.pow(3, 2)); // 3 * 3 = 9
 console.log(Math.pow(5, 4)); // 5 * 5 * 5 * 5 = 625
+
+// MATH FLOOR (redondea floating numbers hacia abajo)
+console.log("---------------Math.floor()------------");
+console.log(Math.floor(1.8273)); // lo transforma en 1
+console.log(Math.floor(1.9273)); // lo transforma en 1
+console.log(Math.floor(2.9273)); // lo transforma en 2
+
+// MATH CEIL (redondea floating numbers hacia arriba)
+console.log("--------------Math.ceil()---------------");
+console.log(Math.ceil(1.837)); // Output: 2
+console.log(Math.ceil(1.93333)); // Output: 2
+console.log(Math.ceil(2.3333)); // Output: 3
+
+// MATH ROUND (redondea hacia el integer mas cercano)
+console.log("--------------Math.round()---------------");
+console.log(Math.round(1.3333)); // Output: 1
+console.log(Math.round(1.837)); // Output: 2
+console.log(Math.round(2.8333)); // Output: 3
+
