@@ -37,4 +37,12 @@ noMaps.forEach((item) => console.log(item)) // for each
 console.log("------------map------------------------");
 noMaps.map((item) => console.log(item))
 
+// SOME and EVERY
+let numeros = [2, 5, 6, 4];
+console.log(numeros.some((numero) => numero == 3)); // false
+console.log(numeros.some((numero) => numero == 4)); // true
+
+console.log(numeros.every((numero) => numero < 300)); // true
+console.log(numeros.every((numero) => numero < 300 && numero > 1)); // true
+console.log(numeros.every((numero) => numero != 33)); // true
 
