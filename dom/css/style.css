@@ -13,9 +13,14 @@
 }
 
 body{
-    
+    max-width: 60ch;
+    margin: auto;
     background-color: var(--dark);
     color: coral;
+    font-size: 1.5rem;
+}
+.p{
+    padding: 0.5rem 1.5rem;
     font-size: 1.5rem;
 }
 
@@ -33,5 +38,22 @@ body{
     color: hotpink;
     padding: 1rem;
     margin-top: 1rem;
+}
+.pd{
+    padding: 2rem;
+}
+
+.mt{
+    margin-top: 2rem;
+}
+
+.b-red{
+    background-color: red;
+}
+.b-yellow{
+    background-color: yellow;
+}
+.b-green{
+    background-color:rgb(50, 223, 50);
 }
 
