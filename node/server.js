@@ -1,5 +1,5 @@
-const http = require('http');
-const PORT = 3000;
+const http = require('http'); // importamos la libreria http de node
+const PORT = 3000; // usamos una constante para el numero del puerto
 
 http.createServer((request, response) => {
   response.writeHead(200, { 'Content-Type': 'text/plain' });
